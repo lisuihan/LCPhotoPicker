@@ -20,7 +20,7 @@ class LCPhotoBrowserBotttomCell: UICollectionViewCell {
             PHCachingImageManager.default().requestImage(for: model.asset, targetSize: thumbnailSize, contentMode: .aspectFill, options: nil) { (image, nil) in
                 self.imageView.image = image
             }
-        }
+        } 
     }
     
     override init(frame: CGRect) {
